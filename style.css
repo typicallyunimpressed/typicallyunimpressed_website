@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img
+{
+    width: 500px;
+    height: auto;
+    padding-top: 4rem;
+}
+
+/* from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+
+.row {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.column {
+  /*flex: 33.33%; */
+    flex: 50%;
+    padding-top: 2.5rem;
+}
+
+.row_review {
+    display: flex;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.column_review {
+  /*flex: 33.33%; */
+    flex: 50%;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.para_review {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+footer {
+  padding: 6rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
